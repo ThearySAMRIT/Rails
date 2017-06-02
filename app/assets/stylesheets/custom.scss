@@ -1,5 +1,5 @@
 @import 'bootstrap-sprockets';
-@import "bootstrap";
+@import 'bootstrap';
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -75,6 +75,7 @@ footer {
   color: $gray-light;
   margin-top: 45px;
   padding-top: 5px;
+
   a {
     color: $gray;
     &:hover {
