@@ -4,3 +4,5 @@ email:
   maximum: 255
 username:
   maximum: 50
+gravatar_option:
+  size: 80
