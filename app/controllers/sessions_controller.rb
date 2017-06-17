@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       flash[:success] = t ".success"
       log_in user
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t ".invalid"
       render :new
@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    log_out
+    log_out if log_in
     redirect_to root_url
   end
 end

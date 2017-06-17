@@ -1,5 +1,5 @@
-<% provide :title, (t".title") %>
-<h1><%= t ".title" %></h1>
+<% provide :title, t(".edit") %>
+<h1><%=t ".title" %></h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -18,7 +18,12 @@
       <%= f.label :password_confirmation, t(".confirm") %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
-      <%= f.submit t(".create"), class: "btn btn-primary" %>
+      <%= f.submit t(".save"), class: "btn btn-primary" %>
     <% end %>
+
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".chang"), "http://gravatar.com/emails" %>
+    </div>
   </div>
 </div>

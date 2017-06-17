@@ -6,3 +6,6 @@ username:
   maximum: 50
 gravatar_option:
   size: 80
+  size1: 50
+paginate:
+  page_number: 10

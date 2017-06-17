@@ -9,6 +9,7 @@ gem "bcrypt", "~> 3.1", ">= 3.1.11"
 gem "bootstrap-sass", "~> 3.3", ">= 3.3.7"
 gem "coffee-script", "~> 2.4", ">= 2.4.1"
 gem "config", "~> 1.0"
+gem "faker", "~> 1.7", ">= 1.7.3"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails", "~> 4.1", ">= 4.1.1"
 gem "puma", "~> 3.7"
@@ -17,6 +18,8 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
+gem "will_paginate", "~> 3.1", ">= 3.1.6"
+gem "will_paginate-bootstrap", "~> 1.0", ">= 1.0.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

@@ -50,6 +50,18 @@ en:
       title: "About"
 
   users:
+    destroy:
+      deleted: "User deleted"
+      notdelete: " Somthing wrong can't delete user!!"
+    user:
+      delete: "delete"
+      t: " | "
+      sure: "Are you sure?"
+    index:
+      all: "All users"
+    update:
+      updated: "Profile updated"
+      noupdate: "Somthing went wrong please check"
     new:
       title: "Sign up"
       name: "Name"
@@ -57,11 +69,25 @@ en:
       password: "Password"
       confirm: "Confirm password"
       create: "Create my account"
+      please: "Please login"
     create:
       danger: "You have wrong information!!!"
       welcome: "Welcome to the Sample App!"
+      updated: "Profile updated"
     show:
+      please: "Pleas login"
       note: "Can't find the user! pleas Singup"
+    edit:
+      please: "Pleas login"
+      title: "Update your Profile"
+      save: "Save changes"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirm password"
+      change: "Change"
+      edit: "Edit user"
+      change: "Change"
 
   shared:
     error_messages:
