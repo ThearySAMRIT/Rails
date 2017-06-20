@@ -1,4 +1,21 @@
 en:
+  mailer:
+    user_mailer:
+      hi: "Hi"
+      activate: "Account activation"
+  controller:
+    account_activations_controller:
+      activate: "Account activated!"
+      link: "Invalid activation link"
+  user_mailer:
+    password_reset:
+      title: "Reset your password"
+      report: "find me in app/views/user_mailer/password_reset.text.erb"
+    account_activation:
+      title: "Sample App"
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate
+      your account:"
   sessions:
     new:
       login: "Log in"
@@ -74,6 +91,7 @@ en:
       danger: "You have wrong information!!!"
       welcome: "Welcome to the Sample App!"
       updated: "Profile updated"
+      checkout: "Please check your email to activate your account."
     show:
       please: "Pleas login"
       note: "Can't find the user! pleas Singup"
